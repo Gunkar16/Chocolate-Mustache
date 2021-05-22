@@ -1,0 +1,37 @@
+body{
+    background-image: url("2d213d36f66c318754bd4b78ab9361f1.jpg");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    color:white;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+#welcome{
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    font-size:40px;
+}
+.LOGO{
+    width:200px;
+    margin:30px;
+    border-bottom: 10px solid ;
+    border-image-source:linear-gradient(90deg, rgba(172,147,124,1) 0%, rgba(158,132,108,1) 16%, rgba(156,124,100,1) 32%, rgba(156,132,100,1) 48%, rgba(134,106,85,1) 64%, rgba(109,80,54,1) 80%);
+    border-image-slice: 1;
+}
+
+.hi:hover {
+    cursor: pointer;
+     color: white;
+}
+
+.hi {
+    color: black;
+    text-decoration: none;
+    width:350px;
+    height:30px ;
+    background-image: linear-gradient(to right, rgba(158,132,108,1) 0%, rgba(156,132,100,1) 51%, rgba(109,80,54,1) 100%);
+  }
